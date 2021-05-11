@@ -6,3 +6,6 @@ def index(req):
 
 def whyweloveyou(req):
     return render(req, 'love.html')
+
+def poem(req):
+    return render(req, 'poem.html')
